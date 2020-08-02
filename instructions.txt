@@ -1,0 +1,7 @@
+1. Run PowerShell as administrator
+2. Run Get-ExecutionPolicy
+    - If restricted, set to bypass
+        - Set-ExecutionPolicy Unrestricted
+3. Run desired scripts
+4. Once scripts completed, set ExecutionPolicy to restricted
+    - Set-ExecutionPolicy restricted
